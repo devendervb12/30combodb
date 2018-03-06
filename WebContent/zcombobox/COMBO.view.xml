@@ -1,0 +1,28 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zcombobox.COMBO" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title" >
+		<content>
+	        <ComboBox>
+	           <items>
+	              <core:Item text="{/roles/0/role}"/>
+	              <core:Item text="{/roles/1/role}"/>
+	              <core:Item text="{/roles/2/role}"/>
+	           </items>
+	        </ComboBox>
+	        
+	        <ComboBox binding="{/roles}">
+	           <items>
+	              <core:Item text="{0/role}"/>
+	              <core:Item text="{1/role}"/>
+	              <core:Item text="{2/role}"/>
+	           </items>
+	        </ComboBox>
+	        
+	        <ComboBox items="{/roles}">
+	           <items>
+	              <core:Item text="{role}"/>
+	           </items>
+	        </ComboBox>
+		</content>
+	</Page>
+</core:View>

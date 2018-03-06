@@ -1,0 +1,29 @@
+{
+  "roles" : [
+          {
+           "role" : "Developer"
+          },
+          {
+           "role" : "Manager"
+          },
+          {
+           "role" : "Employee Manager"
+          },
+          {
+           "role" : "Deployment Manager"
+          } ,
+          {
+           "role" : "Deployment Manager"
+          },
+          {
+           "role" : "Deployment Manager"
+          },
+          {
+           "role" : "Deployment Manager"
+          },
+          {
+           "role" : "Deployment Manager"
+          } 
+  
+  ]
+}
